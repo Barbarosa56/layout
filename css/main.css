@@ -1,0 +1,100 @@
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+
+}
+
+div {
+	box-sizing: border-box;
+}
+header{
+	background: url(../img/don.jpg) no-repeat center top / cover;
+	padding-bottom: 170px;
+
+}
+.product-photo-vegetable  {
+	position: absolute;
+	margin-top: -100px;
+	transition: transform .4s ease-out;
+}
+.product-photo-meat  {
+	position: absolute;
+	margin-top: -100px;
+	margin-left: 400px;
+	transition: transform .4s ease-out;
+}
+.farmer{
+display: block;
+margin-top: 43px;
+float: left;
+}
+.container{
+width: 980px;
+margin: 0 auto;
+}
+
+nav {
+	float: right;
+	margin-top: 90px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+ .menu li {
+	float: left;
+	display: block;
+	margin-right: 75px;
+
+
+
+
+}
+.menu li a {
+	color: #f2f2f2;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.titles__first {
+	font-size: 70px;
+	color: #f2f2f2;
+	text-align: center;
+	margin-top: 175px;
+	
+}
+
+h1 {
+	font-size: 25px;
+	color: #f2f2f2;
+	text-align: center;
+	margin: 15px;
+
+}
+.button {
+	background: #c7141d;
+	color: #f2f2f2; 
+	border-radius: 3px;
+	display: block;
+	width: 250px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center; 
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px; 
+	margin-top: 50px;
+}
